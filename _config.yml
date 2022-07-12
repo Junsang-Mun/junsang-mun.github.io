@@ -60,7 +60,7 @@ author:
   bio    : "🐶🦶🏻자"
   links:
     - label: "Mail"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mun.js@aol.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -72,7 +72,7 @@ author:
 footer:
   links:
     - label: "Mail"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mun.js@aol.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
