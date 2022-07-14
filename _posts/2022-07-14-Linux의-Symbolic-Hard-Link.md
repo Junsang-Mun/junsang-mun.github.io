@@ -32,7 +32,17 @@ Symbolic link랑 Hard link의 개념이 처음 접했을 때 왜 헷갈렸는지
 
 ![](/assets/posts/220714/slink.png)
 
+file_link라는 심볼릭 링크를 만들고, 그 심볼릭 링크를 file.txt에 연결한다는 의미. 바로가기를 만들었다고 이해하면 될 것 같다.
+
 ![](/assets/posts/220714/hardlink.png)
+
+file1.txt와 file2.txt는 **이름은 다르지만 내용은 동일하다**. file1과 file2는 스토리지 내부에서 동일한 위치를 가리키고 있기 때문에 file1을 열어보면 "hello world"라는 텍스트가 나오고, file2 역시 동일하다. 
+file1을 수정해도 file2에서도 변경된 내용이 표출된다.
+
+file1.txt를 삭제하면 어떻게 될까?
+
+file1.txt는 지워져도 "hello world"는 file2.txt를 통해 접근할 수 있다.
+왜냐하면 이 둘은 근본적으로 동일한 저장소 주소를 가리키고 있기 때문이다.
 
 
 # ln 명령어
@@ -63,7 +73,7 @@ hard link를 생성할 때, 각 TARGET은 반드시 존재해야 합니다.
 	기 존재하는 LINK_NAME 이름의 파일을 제거합니다.
 
 -s, --symbolic
-	hard link 대신 soft link를 생성합니다.
+	hard link 대신 symbolic link를 생성합니다.
 
 
 
