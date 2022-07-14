@@ -1,6 +1,6 @@
 ---
 title: "Linux의 심볼릭/하드 링크"
-exceprt: "처음 접했을 때 헷갈렸던 개념 다시 톺아보기"
+excerpt: "처음 접했을 때 헷갈렸던 개념 다시 톺아보기"
 
 categories:
   - Linux
