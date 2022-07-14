@@ -30,9 +30,9 @@ Symbolic link랑 Hard link의 개념이 처음 접했을 때 왜 헷갈렸는지
 
 내가 이해한대로 모식도를 그려봤다.
 
-![](../assets/posts/220714/slink.png)
+![](/assets/posts/220714/slink.png)
 
-![](../assets/posts/220714/hardlink.png)
+![](/assets/posts/220714/hardlink.png)
 
 
 # ln 명령어
