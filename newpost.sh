@@ -10,4 +10,4 @@ read category
 t_title=$(echo $title | sed "s/ /-/g")
 date=`date +%Y-%m-%d`
 
-echo "---\ntitle: \"$title\"\nexcerpt: \"$excerpt\"\n\ncategories:\n  - $category\ntags:\n  - [Add, Tags]\n\ndate: $date\n---\n\n" > $date-$t_title.md
+echo "---\ntitle: \"$title\"\nexcerpt: \"$excerpt\"\n\ncategories:\n  - $category\ntags:\n  - [Add, Tags]\n\ndate: $date\n---\n\n" > ./_posts/$date-$t_title.md
