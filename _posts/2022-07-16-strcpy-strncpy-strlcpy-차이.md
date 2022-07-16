@@ -63,7 +63,7 @@ int strlcpy(char *dst, char *src, const int n) {
 	rpt = n - 1 < len ? n - 1 : len;
 	for (int i = 0; i < rpt; i ++) {
 		dst[i] = src[i];
-        dst[i + 1] = '\0';
+		dst[i + 1] = '\0';
     }
     return len;
 }
