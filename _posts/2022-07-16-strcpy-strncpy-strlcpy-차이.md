@@ -3,7 +3,7 @@ title: "strcpy strncpy strlcpy 차이"
 excerpt: "비슷한 함수 같지만 유의해서 사용해야 한다. 작동 방식이 다르기 때문!"
 
 categories:
-    - C Programming
+    - Programming
 tags:
     - [string.h, C]
 

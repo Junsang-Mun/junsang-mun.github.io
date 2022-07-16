@@ -62,17 +62,19 @@ ln [OPTION]... [-T] TARGET LINK_NAME
 ```
 
 TARGET에 대한 링크를 LINK_NAME이란 이름으로 만드는 명령어입니다.
-기본적으로 hard link를 생성하고, symbolic link는 --symbolic 옵션으로 생성할 수 있습니다.
+기본적으로 hard link를 생성하고, symbolic link는 \-\-symbolic 옵션으로 생성할 수 있습니다.
 
 기본적으로 LINK_NAME은 이미 존재하는 이름이지 않아야 합니다.
 hard link를 생성할 때, 각 TARGET은 반드시 존재해야 합니다.
 
 ### OPTION 설명
 
--f, --force
+-f, \-\-force
+
 	기 존재하는 LINK_NAME 이름의 파일을 제거합니다.
 
--s, --symbolic
+-s, \-\-symbolic
+
 	hard link 대신 symbolic link를 생성합니다.
 
 
